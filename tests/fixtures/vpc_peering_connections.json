@@ -1,0 +1,61 @@
+{
+  "ResponseMetadata": {
+    "HTTPHeaders": {
+      "content-length": "2367",
+      "content-type": "text/xml;charset=UTF-8",
+      "date": "Fri, 15 Feb 2019 15:17:46 GMT",
+      "server": "AmazonEC2",
+      "vary": "Accept-Encoding"
+    },
+    "HTTPStatusCode": 200,
+    "RequestId": "788b467d-32f9-4648-88eb-3fdf2e7dfdde",
+    "RetryAttempts": 0
+  },
+  "VpcPeeringConnections": [
+    {
+      "AccepterVpcInfo": {
+        "CidrBlock": "10.10.0.0/16",
+        "CidrBlockSet": [
+          {
+            "CidrBlock": "10.10.0.0/16"
+          }
+        ],
+        "OwnerId": "100000000000",
+        "PeeringOptions": {
+          "AllowDnsResolutionFromRemoteVpc": false,
+          "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+          "AllowEgressFromLocalVpcToRemoteClassicLink": false
+        },
+        "Region": "ap-northeast-1",
+        "VpcId": "vpc-085071b77f46b90cd"
+      },
+      "RequesterVpcInfo": {
+        "CidrBlock": "10.0.0.0/16",
+        "CidrBlockSet": [
+          {
+            "CidrBlock": "10.0.0.0/16"
+          }
+        ],
+        "OwnerId": "100000000000",
+        "PeeringOptions": {
+          "AllowDnsResolutionFromRemoteVpc": false,
+          "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+          "AllowEgressFromLocalVpcToRemoteClassicLink": false
+        },
+        "Region": "us-west-2",
+        "VpcId": "vpc-03b96307a33428987"
+      },
+      "Status": {
+        "Code": "active",
+        "Message": "Active"
+      },
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "cvpn_test_peering_cvpn"
+        }
+      ],
+      "VpcPeeringConnectionId": "pcx-0eb928a29c9c63207"
+    }
+  ]
+}

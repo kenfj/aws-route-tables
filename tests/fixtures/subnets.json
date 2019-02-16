@@ -1,0 +1,82 @@
+{
+  "ResponseMetadata": {
+    "HTTPHeaders": {
+      "content-length": "3484",
+      "content-type": "text/xml;charset=UTF-8",
+      "date": "Fri, 15 Feb 2019 15:16:41 GMT",
+      "server": "AmazonEC2",
+      "vary": "Accept-Encoding"
+    },
+    "HTTPStatusCode": 200,
+    "RequestId": "1e07581c-1d64-4496-91fb-b7864b0cda7f",
+    "RetryAttempts": 0
+  },
+  "Subnets": [
+    {
+      "AssignIpv6AddressOnCreation": false,
+      "AvailabilityZone": "us-west-2c",
+      "AvailabilityZoneId": "usw2-az3",
+      "AvailableIpAddressCount": 4091,
+      "CidrBlock": "172.31.0.0/20",
+      "DefaultForAz": true,
+      "Ipv6CidrBlockAssociationSet": [],
+      "MapPublicIpOnLaunch": true,
+      "OwnerId": "100000000000",
+      "State": "available",
+      "SubnetArn": "arn:aws:ec2:us-west-2:100000000000:subnet/subnet-05e9b155",
+      "SubnetId": "subnet-05e9b155",
+      "VpcId": "vpc-04da3256"
+    },
+    {
+      "AssignIpv6AddressOnCreation": false,
+      "AvailabilityZone": "us-west-2a",
+      "AvailabilityZoneId": "usw2-az1",
+      "AvailableIpAddressCount": 248,
+      "CidrBlock": "10.0.1.0/24",
+      "DefaultForAz": false,
+      "Ipv6CidrBlockAssociationSet": [],
+      "MapPublicIpOnLaunch": false,
+      "OwnerId": "100000000000",
+      "State": "available",
+      "SubnetArn": "arn:aws:ec2:us-west-2:100000000000:subnet/subnet-0d4b9e1cf2223169a",
+      "SubnetId": "subnet-0d4b9e1cf2223169a",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "cvpn_test_subnet_cvpn"
+        }
+      ],
+      "VpcId": "vpc-03b96307a33428987"
+    },
+    {
+      "AssignIpv6AddressOnCreation": false,
+      "AvailabilityZone": "us-west-2a",
+      "AvailabilityZoneId": "usw2-az1",
+      "AvailableIpAddressCount": 4091,
+      "CidrBlock": "172.31.16.0/20",
+      "DefaultForAz": true,
+      "Ipv6CidrBlockAssociationSet": [],
+      "MapPublicIpOnLaunch": true,
+      "OwnerId": "100000000000",
+      "State": "available",
+      "SubnetArn": "arn:aws:ec2:us-west-2:100000000000:subnet/subnet-613079a6",
+      "SubnetId": "subnet-613079a6",
+      "VpcId": "vpc-04da3256"
+    },
+    {
+      "AssignIpv6AddressOnCreation": false,
+      "AvailabilityZone": "us-west-2b",
+      "AvailabilityZoneId": "usw2-az2",
+      "AvailableIpAddressCount": 4091,
+      "CidrBlock": "172.31.32.0/20",
+      "DefaultForAz": true,
+      "Ipv6CidrBlockAssociationSet": [],
+      "MapPublicIpOnLaunch": true,
+      "OwnerId": "100000000000",
+      "State": "available",
+      "SubnetArn": "arn:aws:ec2:us-west-2:100000000000:subnet/subnet-a5d28191",
+      "SubnetId": "subnet-a5d28191",
+      "VpcId": "vpc-04da3256"
+    }
+  ]
+}

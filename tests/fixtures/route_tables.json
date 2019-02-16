@@ -1,0 +1,100 @@
+{
+  "ResponseMetadata": {
+    "HTTPHeaders": {
+      "content-type": "text/xml;charset=UTF-8",
+      "date": "Fri, 15 Feb 2019 15:19:00 GMT",
+      "server": "AmazonEC2",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding"
+    },
+    "HTTPStatusCode": 200,
+    "RequestId": "38fe0c80-54ad-45cd-b8af-2715d473d29a",
+    "RetryAttempts": 0
+  },
+  "RouteTables": [
+    {
+      "Associations": [
+        {
+          "Main": true,
+          "RouteTableAssociationId": "rtbassoc-ab64cbcd",
+          "RouteTableId": "rtb-e50a5a34"
+        }
+      ],
+      "OwnerId": "100000000000",
+      "PropagatingVgws": [],
+      "RouteTableId": "rtb-e50a5a34",
+      "Routes": [
+        {
+          "DestinationCidrBlock": "172.31.0.0/16",
+          "GatewayId": "local",
+          "Origin": "CreateRouteTable",
+          "State": "active"
+        },
+        {
+          "DestinationCidrBlock": "0.0.0.0/0",
+          "GatewayId": "igw-046c054d",
+          "Origin": "CreateRoute",
+          "State": "active"
+        }
+      ],
+      "Tags": [],
+      "VpcId": "vpc-04da3256"
+    },
+    {
+      "Associations": [
+        {
+          "Main": false,
+          "RouteTableAssociationId": "rtbassoc-0c1b3472325bf08db",
+          "RouteTableId": "rtb-0edab5f8845653e29",
+          "SubnetId": "subnet-0d4b9e1cf2223169a"
+        }
+      ],
+      "OwnerId": "100000000000",
+      "PropagatingVgws": [],
+      "RouteTableId": "rtb-0edab5f8845653e29",
+      "Routes": [
+        {
+          "DestinationCidrBlock": "10.0.0.0/16",
+          "GatewayId": "local",
+          "Origin": "CreateRouteTable",
+          "State": "active"
+        },
+        {
+          "DestinationCidrBlock": "10.10.0.0/16",
+          "Origin": "CreateRoute",
+          "State": "active",
+          "VpcPeeringConnectionId": "pcx-0eb928a29c9c63207"
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "cvpn_test_rt"
+        }
+      ],
+      "VpcId": "vpc-03b96307a33428987"
+    },
+    {
+      "Associations": [
+        {
+          "Main": true,
+          "RouteTableAssociationId": "rtbassoc-0a5a559cb73d5fc1f",
+          "RouteTableId": "rtb-05abd25320cfd90b9"
+        }
+      ],
+      "OwnerId": "100000000000",
+      "PropagatingVgws": [],
+      "RouteTableId": "rtb-05abd25320cfd90b9",
+      "Routes": [
+        {
+          "DestinationCidrBlock": "10.0.0.0/16",
+          "GatewayId": "local",
+          "Origin": "CreateRouteTable",
+          "State": "active"
+        }
+      ],
+      "Tags": [],
+      "VpcId": "vpc-03b96307a33428987"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ResponseMetadata": {
+    "HTTPHeaders": {
+      "content-length": "1888",
+      "content-type": "text/xml;charset=UTF-8",
+      "date": "Fri, 15 Feb 2019 15:15:06 GMT",
+      "server": "AmazonEC2"
+    },
+    "HTTPStatusCode": 200,
+    "RequestId": "a220021e-c30c-44ca-a1bd-d0d9132a1985",
+    "RetryAttempts": 0
+  },
+  "Vpcs": [
+    {
+      "CidrBlock": "10.0.0.0/16",
+      "CidrBlockAssociationSet": [
+        {
+          "AssociationId": "vpc-cidr-assoc-0218f0a92c0c7af4d",
+          "CidrBlock": "10.0.0.0/16",
+          "CidrBlockState": {
+            "State": "associated"
+          }
+        }
+      ],
+      "DhcpOptionsId": "dopt-23391a47",
+      "InstanceTenancy": "default",
+      "IsDefault": false,
+      "OwnerId": "100000000000",
+      "State": "available",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "cvpn_test_vpc_cvpn"
+        }
+      ],
+      "VpcId": "vpc-03b96307a33428987"
+    },
+    {
+      "CidrBlock": "172.31.0.0/16",
+      "CidrBlockAssociationSet": [
+        {
+          "AssociationId": "vpc-cidr-assoc-f9b3d290",
+          "CidrBlock": "172.31.0.0/16",
+          "CidrBlockState": {
+            "State": "associated"
+          }
+        }
+      ],
+      "DhcpOptionsId": "dopt-23391a47",
+      "InstanceTenancy": "default",
+      "IsDefault": true,
+      "OwnerId": "100000000000",
+      "State": "available",
+      "VpcId": "vpc-04da3256"
+    }
+  ]
+}
