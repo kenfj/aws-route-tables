@@ -1,0 +1,6 @@
+.venv
+.idea
+.vscode
+.coverage
+.pytest_cache
+htmlcov
